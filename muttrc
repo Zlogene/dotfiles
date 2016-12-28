@@ -9,6 +9,7 @@ set mail_check = 5
 set timeout = 10
 set index_format = "%4C %Z %{%b %d} %-16.16L  %s"
 set folder_format = "%t%N %-30.30f %8s"   
+set beep_new
 
 # Data
 
@@ -19,7 +20,8 @@ set from = "zlogene@gentoo.org"
                                                                                                                                                                                                                                              
 set spoolfile = imaps://zlogene:******@dev.gentoo.org/INBOX/                                                                                                                                                                              
 set folder = imaps://dev.gentoo.org/INBOX/                                                                                                                                                                                                   
-set imap_check_subscribed                                                                                                                                                                                                                    
+set imap_check_subscribed
+set record = imaps://dev.gentoo.org/Sent
 set header_cache = ~/.mutt                                                                                                                                                                                                                   
                                                                                                                                                                                                                                              
 # SMTP                                                                                                                                                                                                                                       
