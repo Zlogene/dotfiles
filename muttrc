@@ -94,3 +94,7 @@ set pgp_timeout=1800
 
 # Text to show before a good signature:
 set pgp_good_sign="^gpg: Good signature from"
+
+# vim modeline
+
+# vim: ft=muttrc
