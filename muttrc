@@ -10,6 +10,7 @@ set timeout = 10
 set index_format = "%4C %Z %{%b %d} %-16.16L  %s"
 set folder_format = "%t%N %-30.30f %8s"   
 set beep_new
+set mark_old = yes
 
 # Data
 
