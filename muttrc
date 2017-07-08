@@ -48,9 +48,11 @@ source ~/path/to/scheme/color
 bind index,pager <F5> sidebar-prev
 bind index,pager <F6> sidebar-next
 bind index,pager <F12> sidebar-open
-macro index,pager I  <set-flag>O        "Mark as read"
-macro index,pager U  <clear-flag>O      "Mark as unread"
+
+# Macroses
+
 macro index,pager H  "<enter-command>toggle sidebar_visible <enter><redraw-screen>"
+macro index,pager R  "<tag-pattern>.<enter><tag-prefix><clear-flag>N<untag-pattern>.<enter>"
 
 # Gnupg
 
