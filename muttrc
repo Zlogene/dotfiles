@@ -38,7 +38,10 @@ set sidebar_shortpath = yes
 set sidebar_width=30                                                                                                                                                                                                                         
 set sidebar_delim='|'                                                                                                                                                                                                                        
                                                                                                                                                                                                                                              
-# Headers things                                                                                                                                                                                                                             
+# Headers things
+
+ignore          *                                                                                                                                                                                                                                  
+unignore        From To Cc Bcc Date Subject     
                                                                                                                                                                                                                                              
 # Color
 
