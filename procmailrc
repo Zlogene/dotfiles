@@ -1,0 +1,85 @@
+MAILDIR="/home/zlogene/.maildir/"
+LOGFILE=.procmail_log
+DROPPRIVS=yes
+
+:0:
+* ^X-Spam-Status: Yes
+/dev/null
+
+:0:
+* ^X-Spam-Level: \*\*\*
+/dev/null
+
+:0:
+* ^(To|CC).*(ppc|ppc64|sh|s390|sparc|arm|alpha|ia64|x86|mips)@gentoo.org
+/dev/null
+
+:0:
+* ^From.*root@guppy.ia64.dev.gentoo.org
+/dev/null
+
+:0:
+* ^(To|CC).*perl@gentoo.org
+.INBOX.perl/new
+
+:0:
+* ^From.*zlog.gentoo@gmail.com
+.INBOX.perl/new
+
+:0:
+* ^(To|CC).*amd64@gentoo.org
+.INBOX.amd64-bugs/new
+
+:0:
+* ^(To|CC).*security@gentoo.org
+.INBOX.security/new
+
+:0:
+* ^(To|CC).*root@gentoo.org
+.INBOX.infra-cron/new
+
+:0:
+* ^(To|CC).*comrel@gentoo.org
+.INBOX.comrel/new
+
+:0:
+* ^(To|CC).*proxy-maint@gentoo.org
+.INBOX.proxy-maint/new
+
+:0:
+* ^(To|CC).*base-system@gentoo.org
+.INBOX.base/new
+
+:0:
+* ^(To|CC).*qa@gentoo.org
+.INBOX.qa/new
+
+:0:
+* ^From.*glsamaker.gentoo.org
+.INBOX.glsamaker/new
+
+# lists
+
+:0:
+* ^(To|CC).*gentoo-core@lists.gentoo.org
+.INBOX.gentoo-core/new
+
+:0:
+* ^(To|CC).*gentoo-dev@lists.gentoo.org
+.INBOX.gentoo-dev/new
+
+:0:
+* ^(To|CC).*gentoo-project@lists.gentoo.org
+.INBOX.gentoo-project/new
+
+:0:
+* ^(To|CC).*gentoo-dev-announce@lists.gentoo.org
+.INBOX.gentoo-dev-announce/new
+
+:0:
+* ^(To|CC).*gentoo-announce@lists.gentoo.org
+.INBOX.gentoo-announce/new
+
+:0:
+* ^(To|CC).*recruiters@gentoo.org
+.INBOX.recruiters/new
