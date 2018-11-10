@@ -4,6 +4,7 @@ syntax on
 set noshowmode
 set noswapfile
 set hlsearch
+set incsearch
 colorscheme gruvbox
 set bg=dark
 set backspace=indent,eol,start
