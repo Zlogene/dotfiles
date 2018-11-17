@@ -11,3 +11,12 @@ set backspace=indent,eol,start
 filetype plugin indent on
 set grepprg=grep\ -nH\ $*
 let g:Tex_DefaultTargetFormat='pdf'
+
+noremap  <Up> ""
+noremap! <Up> <Esc>
+noremap  <Down> ""
+noremap! <Down> <Esc>
+noremap  <Left> ""
+noremap! <Left> <Esc>
+noremap  <Right> ""
+noremap! <Right> <Esc>
