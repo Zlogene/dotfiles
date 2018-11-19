@@ -1,4 +1,5 @@
 set number
+set cursorline
 set ts=8
 syntax on
 set noshowmode
