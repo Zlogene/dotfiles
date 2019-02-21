@@ -10,6 +10,10 @@
 ;; Hide welcome screen
 (setq inhibit-startup-screen 1)
 
+;; Require gentoo specific macroses
+
+(require 'site-gentoo)
+
 ;; Disable autosave things
 
 (setq make-backup-files nil)
