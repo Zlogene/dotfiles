@@ -64,4 +64,4 @@ echo ${ct}/${pn}
 
 }
 
-. /usr/share/zsh/site-functions/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+. /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh
