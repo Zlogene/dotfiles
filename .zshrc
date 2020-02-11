@@ -15,6 +15,7 @@ unsetopt nomatch
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias ip='ip -c'
+eval $(dircolors)
 
 bindkey '^[[Z' reverse-menu-complete
 
