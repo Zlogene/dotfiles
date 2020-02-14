@@ -55,7 +55,7 @@ ZSH_HIGHLIGHT_STYLES[assign]="fg=cyan,bold"
 
 export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 gpgconf --launch gpg-agent
-gpg-connect-agent updatestartuptty /bye
+gpg-connect-agent updatestartuptty /bye > /dev/null 2>&1
 
 cpn() {
 
