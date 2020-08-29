@@ -42,7 +42,7 @@
 (set-frame-font "Liberation Mono 11" nil t)
 
 ;; Change cursor style
-(set-default 'cursor-type 'hbar)
+(set-default 'cursor-type 'box)
 
 ;; Close brackets automatically
 (electric-pair-mode 1)
